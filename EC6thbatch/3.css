@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+
+    position: relative;
+    width: 320px;
+    height: 500px;
+    
+    
+    overflow: hidden;
+}
+#thin{
+    background: #D5A021;
+}
+#wai {
+    background: #E3655B
+}
+#moe{
+    background: #355070;
+}
+#kay{
+
+    background: #82A7A6;
+}
+.box .image1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.box .image1 span{
+    width: 25%;
+    height: 100%;
+    background: url(img/moe-100.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.box:hover .image1 span{
+    transform: translateY(-100%);
+
+
+}
+.box .image1 span:nth-child(1){
+    background-position: 0;
+    transition-delay: 0s;
+}
+.box .image1 span:nth-child(2){
+    background-position: 33.33%;
+    transition-delay: 0.1s;
+}
+
+.box .image1 span:nth-child(3){
+    background-position: 66.66%;
+    transition-delay: 0.2s;
+}
+.box .image1 span:nth-child(4){
+    background-position: 100%;
+    transition-delay: 0.3s;
+}
+
+
+
+.box .image2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.box .image2 span{
+    width: 25%;
+    height: 100%;
+    background: url(img/wai-100.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.box:hover .image2 span{
+    transform: translateY(-100%);
+
+
+}
+.box .image2 span:nth-child(1){
+    background-position: 0%;
+    transition-delay: 0s;
+}
+.box .image2 span:nth-child(2){
+    background-position: 33.33%;
+    transition-delay: 0.1s;
+}
+
+.box .image2 span:nth-child(3){
+    background-position: 66.66%;
+    transition-delay: 0.2s;
+}
+.box .image2 span:nth-child(4){
+    background-position: 100%;
+    transition-delay: 0.3s;
+}
+
+
+
+.box .image3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.box .image3 span{
+    width: 25%;
+    height: 100%;
+    background: url(img/thin-100.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.box:hover .image3 span{
+    transform: translateY(-100%);
+
+
+}
+.box .image3 span:nth-child(1){
+    background-position: 0%;
+    transition-delay: 0s;
+}
+.box .image3 span:nth-child(2){
+    background-position: 33.33%;
+    transition-delay: 0.1s;
+}
+
+.box .image3 span:nth-child(3){
+    background-position: 66.66%;
+    transition-delay: 0.2s;
+}
+.box .image3 span:nth-child(4){
+    background-position: 100%;
+    transition-delay: 0.3s;
+}
+
+
+
+.box .image4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+.box .image4 span{
+    width: 25%;
+    height: 100%;
+    background: url(img/kay-100.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.box:hover .image4 span{
+    transform: translateY(-100%);
+
+
+}
+.box .image4 span:nth-child(1){
+    background-position: 0%;
+    transition-delay: 0s;
+}
+.box .image4 span:nth-child(2){
+    background-position: 33.33%;
+    transition-delay: 0.1s;
+}
+
+.box .image4 span:nth-child(3){
+    background-position: 66.66%;
+    transition-delay: 0.2s;
+}
+.box .image4 span:nth-child(4){
+    background-position: 100%;
+    transition-delay: 0.3s;
+}
+
+.box .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+    transform: translateY(100%);
+}
+.box:hover .content{
+    transform: translate(0%);
+}
+.box .content h2{
+color: #fff;
+font-size: 22px;
+font-family: sans-serif;
+text-transform: uppercase;
+}
+.box .content p{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+
+    }
+    
